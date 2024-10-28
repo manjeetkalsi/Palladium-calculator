@@ -1,0 +1,13 @@
+{
+  "name": "Palladium-manjeet",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "short_name": "Palladium-manjeet",
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ]
+}
