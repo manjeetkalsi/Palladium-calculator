@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Palladium calculator </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palladium Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Palladium Calculator</h1>
+    <div class="input-row">
+      <div>
+        <label for="pt-price">Pt Price $/g</label>
+        <input type="number" id="pt-price" placeholder="Enter Pt Price" />
+      </div>
+      <div>
+        <label for="pd-price">Pd Price $/g</label>
+        <input type="number" id="pd-price" placeholder="Enter Pd Price" />
+      </div>
+    </div>
+    <div class="input-row">
+      <div>
+        <label for="rh-price">Rh Price $/g</label>
+        <input type="number" id="rh-price" placeholder="Enter Rh Price" />
+      </div>
+      <div>
+        <label for="exchange-rate">Exchange Rate</label>
+        <input type="number" id="exchange-rate" placeholder="Enter Exchange Rate" />
+      </div>
+    </div>
+    <div class="centered-section">
+      <label for="pt-ppm">Pt PPM</label>
+      <input type="number" id="pt-ppm" placeholder="Enter Pt PPM">
+      <label for="pd-ppm">Pd PPM</label>
+      <input type="number" id="pd-ppm" placeholder="Enter Pd PPM">
+      <label for="rh-ppm">Rh PPM</label>
+      <input type="number" id="rh-ppm" placeholder="Enter Rh PPM">
+      <p>Price in $/kg = <span id="calculated-price"></span></p>
+      <p>Price with Exchange Rate = <span id="price-with-rate"></span></p>
+    </div>
+    <p class="signature">Done by Manjeet Kalsi</p>
+    <button class="hamburger" id="menu-btn">☰</button>
+    <div class="admin-settings" id="admin-settings">
+      <h2>Admin Settings</h2>
+      <label for="return-percentage">Client Return %</label>
+      <input type="number" id="return-percentage" placeholder="Enter Client Return %">
+      <label for="max-price">Max Price per Kg for client</label>
+      <input type="range" id="max-price" min="0" max="500" value="150">
+      <span id="max-price-output">150</span>
+      <label for="material-cost">Material Cost $/Kg</label>
+      <input type="number" id="material-cost" placeholder="Enter Material Cost">
+      <button id="show-admin-btn">Show Admin Values</button>
+      <div id="admin-values">
+        <p>Admin Real Value = <span id="admin-real-value"></span></p>
+        <p>Client Real Value = <span id="client-real-value"></span></p>
+        <p>Profit = <span id="admin-profit"></span></p>
+      </div>
+      <button id="hide-admin-btn">Hide Admin Values</button>
+      <button id="close-admin-btn"
+              class="close-btn">close</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.input-row div {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+.centered-section {
+  margin: 20px auto;
+  text-align: center;
+}
+#calculated-price, #price-with-rate {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #00796b;
+}
+.hamburger {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.admin-settings {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.5);
+}
+#max-price-output {
+  display: block;
+  margin-top: 10px;
+}
+.close-btn{
+  margin-top:20px;
+  padding:10px 20px;
+  background-color: #00796b;
+  color:white;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+}
+.close-btn:hover{
+  background-color:#004d40;
+}
+.signature {
+  margin-top: 20px;
+  color: gray;
+}
